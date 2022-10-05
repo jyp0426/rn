@@ -1,2 +1,1 @@
-# rn
-React Native 学习笔记
+# React Native 学习笔记

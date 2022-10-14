@@ -1,8 +1,8 @@
-import { View, ActivityIndicator, Platform } from 'react-native'
-import React from 'react'
-import styles from '../public/js/styles'
+import { View, ActivityIndicator, Platform } from 'react-native';
+import React from 'react';
+import styles from '../public/js/styles';
 
-const { OS: os } = Platform
+const { OS: os } = Platform;
 
 export default function() {
     switch (os) {

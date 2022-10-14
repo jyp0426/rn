@@ -1,6 +1,6 @@
 import { View, Image } from 'react-native';
 import React from 'react';
-import styles from '../public/js/styles';
+import styles from '../public/js/globalStyle';
 
 export default function() {
   return (

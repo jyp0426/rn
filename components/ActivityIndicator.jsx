@@ -1,6 +1,6 @@
 import { View, ActivityIndicator, Platform } from 'react-native';
 import React from 'react';
-import styles from '../public/js/styles';
+import globalStyle from '../public/js/globalStyle';
 
 const { OS: os } = Platform;
 
@@ -26,7 +26,7 @@ export default function() {
     }
 
     return (
-        <View style={styles.container}>
+        <View style={globalStyle.container}>
             <ActivityIndicator color='#3aa675' size={'large'} />
             <ActivityIndicator color='#3aa675' size={100} />
         </View>

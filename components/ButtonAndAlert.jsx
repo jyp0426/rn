@@ -1,6 +1,6 @@
-import { View, Button, Alert } from 'react-native'
-import React from 'react'
-import styles from '../public/js/styles'
+import { View, Button, Alert } from 'react-native';
+import React from 'react';
+import globalStyle from '../public/js/globalStyle';
 
 export default function() {
   function update() {
@@ -26,7 +26,7 @@ export default function() {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={globalStyle.container}>
         <Button title='更新提示' onPress={() => update()} color='#3aa675'></Button>
     </View>
   )
